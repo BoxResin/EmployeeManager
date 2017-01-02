@@ -31,7 +31,7 @@ int DeleteEmployee(int number)
 	}
 }
 
-void PrintAllEmployee();
+void PrintAllEmployee()
 {
 	for(int i = 0; i < employee_n; i++)
 	{
