@@ -22,12 +22,13 @@ int DeleteEmployee(int number)
 	if(i == employee_n)
 		return 0;
 	else{
-		employee_n--;
 
 		for(int j = i; j < employee_n-1; j++)
 		{
 			employees[j] = employees[j+1];
 		}
+
+		employee_n--;
 		return 1;
 	}
 }
