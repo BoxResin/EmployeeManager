@@ -35,7 +35,7 @@ int main(void)
 				printf("봉급: ");
 				scanf("%d", &salary);
 
-				AddEmployee(NewImployee(number, age, salary));
+				AddEmployee(NewEmployee(number, age, salary));
 			}
 			break;
 
