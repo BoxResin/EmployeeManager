@@ -5,7 +5,7 @@ int employee_n;
 
 void AddEmployee(Employee employee)
 {
-	employees[employee_n] = employee;
+	employees[employee_n++] = employee;
 	return;
 }
 
@@ -22,6 +22,7 @@ int DeleteEmployee(int number)
 	if(i == employee_n)
 		return 0;
 	else{
+		employee_n--;
 
 		for(int j = i; j < employee_n-1; j++)
 		{
